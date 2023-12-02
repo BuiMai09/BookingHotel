@@ -3,47 +3,47 @@ import "./featured.css";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "/hotels/countByCity?cities=berlin,madrid,london"
+    "/hotels/countByCity?cities=hanoi,hcm,danang"
   );
 
   return (
     <div className="featured">
       {loading ? (
-        "Loading please wait"
+        "Vui lòng đợi ..."
       ) : (
         <>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/957801.webp?k=a969e39bcd40cdcc21786ba92826063e3cb09bf307bcfeac2aa392b838e9b7a5&o="
+              src="https://www.tripsavvy.com/thmb/CJgbQTqkOx_y-Ypvfm8M7ZvdMVg=/2107x1423/filters:fill(auto,1)/GettyImages-520483268-5a8001f5d8fdd50037283bae.jpg"
               alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>Berlin</h1>
-              <h2>{data[0]} properties</h2>
+              <h1>Hà Nội</h1>
+              <h2>{data[0]} chỗ nghỉ</h2>
             </div>
           </div>
 
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/690334.webp?k=b99df435f06a15a1568ddd5f55d239507c0156985577681ab91274f917af6dbb&o="
+              src="https://tse4.mm.bing.net/th?id=OIP.pY0_lscZoOKQ3yFfsywg3wHaEK&pid=Api&P=0&h=220"
               alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>Madrid</h1>
-              <h2>{data[1]} properties</h2>
+              <h1>Hồ Chí Minh</h1>
+              <h2>{data[1]} chỗ nghỉ</h2>
             </div>
           </div>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o="
+              src="https://tse2.mm.bing.net/th?id=OIP.psEZB-6An5P2NIXTJsLw7AHaD4&pid=Api&P=0&h=220"
               alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">
-              <h1>London</h1>
-              <h2>{data[2]} properties</h2>
+              <h1>Đà Nẵng</h1>
+              <h2>{data[2]} chỗ nghỉ</h2>
             </div>
           </div>
         </>

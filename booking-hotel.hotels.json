@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "656ada5876bfda691920d960"
+  },
+  "name": "Angel Palace Hotel",
+  "type": "hotel",
+  "city": "hanoi",
+  "address": "17 Phố Nguyễn Khuyến, Quận Đống Đa, Hà Nội, Việt Nam",
+  "distance": "test",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/509474178.jpg?k=d021477e448ec34bde0b6a342630e277347884679acd3f911f59e27d6c61885e&o=&hp=1"
+  ],
+  "title": "Angel Palace Hotel",
+  "desc": "Nằm tại vị trí thuận tiện ở Quận Đống Đa, Hà Nội, Angel Palace Hotel nằm cách Bảo tàng mỹ thuật Việt Nam 3 phút đi bộ, Hoàng thành Huế chưa đến 1 km và Ga Hà Nội 9 phút đi bộ. Khách sạn 4 sao này cung cấp dịch vụ phòng, quầy lễ tân 24 giờ và Wi-Fi miễn phí. Đây là chỗ nghỉ không hút thuốc và tọa lạc cách Văn Miếu - Quốc Tử Giám 4 phút đi bộ.",
+  "rating": 5,
+  "rooms": [
+    "3"
+  ],
+  "cheapestPrice": 8,
+  "featured": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656add2576bfda691920d998"
+  },
+  "name": "Capella Hanoi",
+  "type": "hotel",
+  "city": "hanoi",
+  "address": "11 Lê Phụng Hiểu, Quận Hoàn Kiếm, Hà Nội, Việt Nam",
+  "distance": "test",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/285817878.jpg?k=f875d837ac61e9233342267fef28839fc9913e66e8cb26eb0961a1d32788871f&o=&hp=1"
+  ],
+  "title": "Capella Hanoi",
+  "desc": "Capella Hanoi có trung tâm thể dục, phòng chờ chung, sân hiên và quầy bar ở Hà Nội. Ngoài Wi-Fi miễn phí, khách sạn 5 sao này còn cung cấp quầy lễ tân 24 giờ và dịch vụ tiền sảnh. Khách sạn cung cấp hồ bơi trong nhà, phòng xông hơi khô và dịch vụ phòng",
+  "rating": 5,
+  "rooms": [
+    "5"
+  ],
+  "cheapestPrice": 1000000,
+  "featured": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656adf2576bfda691920d9be"
+  },
+  "name": "Moon West Lake Hotel & Residence",
+  "type": "apartments",
+  "city": "hanoi",
+  "address": "185 Trích Sài, Quận Tây Hồ, Hà Nội, Việt Nam",
+  "distance": "cách trung tâm thành phố 2km",
+  "photos": [
+    "https://cf.bstatic.com/xdata/images/hotel/max1024x768/304355783.jpg?k=5f595afc780e1ad01b3f05bed6108fd956431ade248260dd2dc728cf4253e413&o=&hp=1"
+  ],
+  "title": "Moon West Lake Hotel & Residence",
+  "desc": "Moon West Lake Hotel & Residence ở Hà Nội nằm cách Bảo tàng dân tộc học Việt Nam 3.1 km, cung cấp chỗ nghỉ có điều hòa, Wi-Fi miễn phí, cũng như sân hiên phơi nắng.Mỗi căn được thiết kế gồm bếp đầy đủ tiện nghi với bàn ăn, TV có truyền hình cáp, cùng phòng tắm riêng có bể sục, máy sấy tóc và dép đi trong phòng. Lò vi sóng và ấm đun nước đều được cung cấp.Chỗ nghỉ cách Lăng Chủ tịch Hồ Chí Minh 3.5 km và Chùa Một Cột 3.6 km. Sân bay gần nhất là Sân bay Quốc tế Nội Bài, cách Moon West Lake Hotel & Residence 20 km, đồng thời chỗ nghỉ này cũng cung cấp dịch vụ đưa đón sân bay mất phí.",
+  "rating": 5,
+  "rooms": [
+    "5"
+  ],
+  "cheapestPrice": 750000,
+  "featured": true,
+  "__v": 0
+}]

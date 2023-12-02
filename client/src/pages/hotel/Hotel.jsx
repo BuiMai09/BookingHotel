@@ -37,7 +37,7 @@ const Hotel = () => {
     return diffDays;
   }
 
-  const days = dayDifference(dates[0].endDate, dates[0].startDate);
+  const days = dayDifference(dates?.[0]?.endDate ?? '01/12/2023', dates?.[0]?.startDate ?? '12/11/2023');
 
   const handleOpen = (i) => {
     setSlideNumber(i);
